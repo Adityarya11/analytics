@@ -190,10 +190,10 @@ def plot_multiline(
         legend=True,
         rotate_x=rotate_x,
         grid_axis="y",
-        # Keep the legend in the header whitespace instead of on top of data.
-        legend_loc="upper right",
-        legend_bbox_to_anchor=(1, 1.14),
-        legend_ncol=min(len(pivot.columns), 3),
+        # Keep the legend cleanly outside to the right
+        legend_loc="upper left",
+        legend_bbox_to_anchor=(1.02, 1),
+        legend_ncol=1,
         legend_kwargs={"borderaxespad": 0.0},
-        layout_rect=(0, 0, 1, 0.92),
+        layout_rect=(0, 0, 0.85, 1), # Reserve space on the right
     )
