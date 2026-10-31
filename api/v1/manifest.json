@@ -341,10 +341,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-10-26T15:56:22.359851+00:00",
+ "generated_at": "2026-10-31T15:04:10.526046+00:00",
  "provenance": {
   "git_sha": "8fd9548",
-  "data_as_of": "2026-10-26T15:47:47.220251+00:00"
+  "data_as_of": "2026-10-26T15:49:30.752229+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -388,7 +388,7 @@
      "id": "repo",
      "macro": "Governance",
      "title": "Roles and recent activity by repo",
-     "row_count": 761,
+     "row_count": 762,
      "path": "hiero-ledger/repo.json"
     },
     {
@@ -402,7 +402,7 @@
      "id": "teamrepo",
      "macro": "Governance",
      "title": "Team activity by repo",
-     "row_count": 2890,
+     "row_count": 2894,
      "path": "hiero-ledger/teamrepo.json"
     },
     {
@@ -460,7 +460,7 @@
      "id": "hip-evidence",
      "macro": "HIPs",
      "title": "Evidence (per PR)",
-     "row_count": 843,
+     "row_count": 848,
      "path": "hiero-ledger/hip-evidence.json"
     },
     {
@@ -774,7 +774,7 @@
         {
          "label": "Week",
          "file": "charts/org/hiero-ledger/maintainer_pipeline_by_repo_7d.png",
-         "width": 2284,
+         "width": 2176,
          "height": 1051
         }
        ],
@@ -1037,7 +1037,7 @@
           "Normalise each team's counts to 100% and stack into one bar, ordered most-concentrated first with same-concentration teams grouped by their leading organisation's colour; only teams with at least four resolved members are shown (the full set is in the team-concentration table).",
           "A dashed line marks 50%: a segment past it means one employer holds the majority. Single-colour bars are employer-controlled teams; multi-colour bars are cross-org."
          ],
-         "width": 4208,
+         "width": 4259,
          "height": 1274
         }
        ],
@@ -1093,7 +1093,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-10-26T15:55:34.455926+00:00"
+      "generated_at": "2026-10-31T15:03:17.704602+00:00"
      }
     },
     {
@@ -1167,7 +1167,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-10-26T15:55:34.451206+00:00"
+      "generated_at": "2026-10-31T15:03:17.701997+00:00"
      }
     },
     {
@@ -1314,13 +1314,13 @@
          "label": "1 month",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_30d.png",
          "width": 2091,
-         "height": 1906
+         "height": 1969
         },
         {
          "label": "Week",
          "file": "charts/org/hiero-ledger/difficulty_by_repo_7d.png",
-         "width": 2093,
-         "height": 1343
+         "width": 2091,
+         "height": 1405
         }
        ],
        "note": "Open issues per repository, stacked by difficulty level. Each tab limits to issues labelled with a difficulty (or newly created) within its span; 'All time' is the whole open backlog and 'Unknown' = open issues not yet triaged. Wider spans are the closest view of a repo's accumulated triage debt.",
@@ -1440,7 +1440,7 @@
      },
      {
       "label": "completed a GFI %",
-      "value": "22%",
+      "value": "23%",
       "note": "The share of contributors who have merged a PR closing an onboarding (good-first-issue) ticket \u2014 the clearest signal that onboarding paths actually convert.",
       "methodology": [
        "Find merged PRs that closed an issue labelled as onboarding-friendly.",
@@ -1502,7 +1502,7 @@
      },
      {
       "label": "quiet permission-holders (180d+)",
-      "value": 99,
+      "value": 100,
       "note": "People holding a granted role who have had no tracked activity for 180 days or more \u2014 an access-hygiene list, not a judgement about the people on it.",
       "methodology": [
        "Take everyone holding a triage, committer, or maintainer role in any repository.",
@@ -1559,7 +1559,7 @@
           "Count the distinct contributors active in each repository.",
           "Keep the top 20 repositories by that count."
          ],
-         "width": 1788,
+         "width": 1793,
          "height": 1051
         }
        ],
@@ -1898,7 +1898,7 @@
      },
      {
       "label": "active last month %",
-      "value": "40%",
+      "value": "38%",
       "note": "The share of all-time contributors who did something in the last 30 days \u2014 a staleness check on the contributor base, not a measure of output.",
       "methodology": [
        "Take the 30-day activity table, which lists exactly the contributors active in that window.",
