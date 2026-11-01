@@ -341,10 +341,10 @@
  "issues_url": "https://github.com/hiero-hackers/analytics/issues",
  "wip": true,
  "version": "v1",
- "generated_at": "2026-10-31T15:04:10.526046+00:00",
+ "generated_at": "2026-11-01T15:49:23.103813+00:00",
  "provenance": {
   "git_sha": "8fd9548",
-  "data_as_of": "2026-10-26T15:49:30.752229+00:00"
+  "data_as_of": "2026-11-01T15:42:57.012930+00:00"
  },
  "orgs": {
   "hiero-ledger": {
@@ -353,7 +353,7 @@
      "id": "profiles",
      "macro": "Contributors",
      "title": "All contributors",
-     "row_count": 1506,
+     "row_count": 1512,
      "path": "hiero-ledger/profiles.json"
     },
     {
@@ -402,7 +402,7 @@
      "id": "teamrepo",
      "macro": "Governance",
      "title": "Team activity by repo",
-     "row_count": 2894,
+     "row_count": 2917,
      "path": "hiero-ledger/teamrepo.json"
     },
     {
@@ -460,7 +460,7 @@
      "id": "hip-evidence",
      "macro": "HIPs",
      "title": "Evidence (per PR)",
-     "row_count": 848,
+     "row_count": 849,
      "path": "hiero-ledger/hip-evidence.json"
     },
     {
@@ -774,7 +774,7 @@
         {
          "label": "Week",
          "file": "charts/org/hiero-ledger/maintainer_pipeline_by_repo_7d.png",
-         "width": 2176,
+         "width": 2284,
          "height": 1051
         }
        ],
@@ -1093,7 +1093,7 @@
      "download": {
       "name": "hip_adoption_funnel.csv",
       "path": "hiero-ledger/hip_adoption_funnel.csv",
-      "generated_at": "2026-10-31T15:03:17.704602+00:00"
+      "generated_at": "2026-11-01T15:48:41.618075+00:00"
      }
     },
     {
@@ -1167,7 +1167,7 @@
      "download": {
       "name": "hip_repo_engagement.csv",
       "path": "hiero-ledger/hip_repo_engagement.csv",
-      "generated_at": "2026-10-31T15:03:17.701997+00:00"
+      "generated_at": "2026-11-01T15:48:41.614780+00:00"
      }
     },
     {
@@ -1385,7 +1385,7 @@
     "Contributors": [
      {
       "label": "contributors",
-      "value": 1506,
+      "value": 1512,
       "note": "Distinct people with any tracked activity in the organisation, all-time. The denominator for every percentage tile on this tab.",
       "methodology": [
        "Collect every tracked activity event: PRs opened, reviews, merges, issues opened, labels applied.",
@@ -1440,7 +1440,7 @@
      },
      {
       "label": "completed a GFI %",
-      "value": "23%",
+      "value": "22%",
       "note": "The share of contributors who have merged a PR closing an onboarding (good-first-issue) ticket \u2014 the clearest signal that onboarding paths actually convert.",
       "methodology": [
        "Find merged PRs that closed an issue labelled as onboarding-friendly.",
@@ -1671,7 +1671,7 @@
           "Rank contributors by their six-month total and keep the top 25.",
           "Colour each cell by its monthly score (greener = more active)."
          ],
-         "width": 1631,
+         "width": 1630,
          "height": 1856
         }
        ],
@@ -1898,7 +1898,7 @@
      },
      {
       "label": "active last month %",
-      "value": "38%",
+      "value": "40%",
       "note": "The share of all-time contributors who did something in the last 30 days \u2014 a staleness check on the contributor base, not a measure of output.",
       "methodology": [
        "Take the 30-day activity table, which lists exactly the contributors active in that window.",
@@ -1907,7 +1907,7 @@
      },
      {
       "label": "multi-repo %",
-      "value": "36%",
+      "value": "38%",
       "note": "The share of contributors active in two or more repositories \u2014 how much the contributor base spans the organisation rather than sitting in one project.",
       "methodology": [
        "For each contributor, count the distinct repositories they were active in (all-time).",
@@ -1943,7 +1943,7 @@
      },
      {
       "label": "completed a GFI %",
-      "value": "30%",
+      "value": "32%",
       "note": "The share of contributors who have merged a PR closing an onboarding (good-first-issue) ticket \u2014 the clearest signal that onboarding paths actually convert.",
       "methodology": [
        "Find merged PRs that closed an issue labelled as onboarding-friendly.",

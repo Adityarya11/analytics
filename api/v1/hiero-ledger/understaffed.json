@@ -123,7 +123,7 @@
   }
  ],
  "row_count": 13,
- "generated_at": "2026-10-31T15:01:55.862085+00:00",
+ "generated_at": "2026-11-01T15:47:21.393362+00:00",
  "stale": false,
  "periods": {
   "7d": [
@@ -184,13 +184,6 @@
     "triage": 0
    },
    {
-    "repo": "hiero-sdk-tck",
-    "maintainers": 4,
-    "active_maintainers": 0,
-    "committers": 5,
-    "triage": 8
-   },
-   {
     "repo": "solo-build-actions",
     "maintainers": 4,
     "active_maintainers": 0,
@@ -213,13 +206,6 @@
    },
    {
     "repo": "homebrew-tools",
-    "maintainers": 5,
-    "active_maintainers": 0,
-    "committers": 3,
-    "triage": 0
-   },
-   {
-    "repo": "solo-charts",
     "maintainers": 5,
     "active_maintainers": 0,
     "committers": 3,
@@ -268,20 +254,6 @@
     "triage": 0
    },
    {
-    "repo": "hiero-contracts",
-    "maintainers": 12,
-    "active_maintainers": 0,
-    "committers": 30,
-    "triage": 1
-   },
-   {
-    "repo": "hiero-ethereum-execution-spec-tests",
-    "maintainers": 12,
-    "active_maintainers": 0,
-    "committers": 13,
-    "triage": 0
-   },
-   {
     "repo": "hiero",
     "maintainers": 16,
     "active_maintainers": 0,
@@ -303,20 +275,6 @@
     "triage": 6
    },
    {
-    "repo": "hiero-enterprise-java",
-    "maintainers": 3,
-    "active_maintainers": 1,
-    "committers": 2,
-    "triage": 12
-   },
-   {
-    "repo": "hiero-mirror-node-explorer",
-    "maintainers": 3,
-    "active_maintainers": 1,
-    "committers": 1,
-    "triage": 0
-   },
-   {
     "repo": "hiero-docs",
     "maintainers": 3,
     "active_maintainers": 1,
@@ -331,11 +289,11 @@
     "triage": 0
    },
    {
-    "repo": "hiero-website",
-    "maintainers": 4,
+    "repo": "solo-charts",
+    "maintainers": 5,
     "active_maintainers": 1,
-    "committers": 1,
-    "triage": 5
+    "committers": 3,
+    "triage": 0
    },
    {
     "repo": "solo-containers",
@@ -352,10 +310,17 @@
     "triage": 11
    },
    {
-    "repo": "solo-docs",
-    "maintainers": 8,
+    "repo": "hiero-contracts",
+    "maintainers": 12,
     "active_maintainers": 1,
-    "committers": 3,
+    "committers": 30,
+    "triage": 1
+   },
+   {
+    "repo": "hiero-ethereum-execution-spec-tests",
+    "maintainers": 12,
+    "active_maintainers": 1,
+    "committers": 13,
     "triage": 0
    },
    {
@@ -363,13 +328,6 @@
     "maintainers": 16,
     "active_maintainers": 1,
     "committers": 0,
-    "triage": 0
-   },
-   {
-    "repo": "governance",
-    "maintainers": 25,
-    "active_maintainers": 1,
-    "committers": 52,
     "triage": 0
    }
   ],
@@ -438,13 +396,6 @@
     "triage": 0
    },
    {
-    "repo": "hiero-contracts",
-    "maintainers": 12,
-    "active_maintainers": 0,
-    "committers": 30,
-    "triage": 1
-   },
-   {
     "repo": "hiero",
     "maintainers": 16,
     "active_maintainers": 0,
@@ -471,6 +422,13 @@
     "active_maintainers": 1,
     "committers": 0,
     "triage": 0
+   },
+   {
+    "repo": "hiero-sdk-cpp",
+    "maintainers": 3,
+    "active_maintainers": 1,
+    "committers": 0,
+    "triage": 15
    },
    {
     "repo": "tsc-eligibility-check",
@@ -513,6 +471,20 @@
     "active_maintainers": 1,
     "committers": 1,
     "triage": 11
+   },
+   {
+    "repo": "hiero-cli",
+    "maintainers": 6,
+    "active_maintainers": 1,
+    "committers": 2,
+    "triage": 0
+   },
+   {
+    "repo": "hiero-contracts",
+    "maintainers": 12,
+    "active_maintainers": 1,
+    "committers": 30,
+    "triage": 1
    },
    {
     "repo": "tsc",
